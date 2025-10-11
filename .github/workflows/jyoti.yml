@@ -32,6 +32,7 @@ jobs:
   terraform-apply:
     name: Terraform Apply
     runs-on: self-hosted
+    needs: terraform-job
     steps:
        - name: Checkout
          uses: actions/checkout@v5.0.0
