@@ -49,7 +49,7 @@ subnetdetails = {
 
     subnet2 = {
     name                 = "subnet-demo-01"
-    resource_group_name  = "rg-demo-01"
+    resource_group_name  = "rg-demo-02"
     virtual_network_name = "vnet-demo-02"
     address_prefixes     = ["10.0.2.0/24"]
   }
