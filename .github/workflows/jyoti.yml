@@ -25,6 +25,12 @@ jobs:
        - name: Terraform Init
          run: terraform init
          working-directory: Environment/dev
+       - name: Terraform plan
+         run: terraform plan
+         working-directory: Environment/dev
+       - name: Terraform apply
+         run: terraform apply
+         working-directory: Environment/dev
          
                 
       
