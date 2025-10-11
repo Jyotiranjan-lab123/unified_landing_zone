@@ -5,6 +5,13 @@ terraform {
         version = "4.47.0"
         }
     }
+    backend "azurerm" {
+        resource_group_name   = "jyotirg"
+        storage_account_name  = "jyotistg"
+        container_name        = "jyoticnt"
+        key                   = "dev.terraform.tfstate"
+      
+    }
     
 }   
 provider "azurerm" {
