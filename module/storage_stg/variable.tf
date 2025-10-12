@@ -1,1 +1,1 @@
-variable "stgdetails" {}
+# variable "stgdetails" {}
