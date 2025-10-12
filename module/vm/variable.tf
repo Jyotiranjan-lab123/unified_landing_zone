@@ -1,1 +1,1 @@
-# variable "vmdetails" {}
+variable "vmdetails" {}
