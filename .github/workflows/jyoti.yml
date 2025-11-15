@@ -1,4 +1,4 @@
-name: "infrapipeline"
+name: "infrapipelinee"
 on: workflow_dispatch
 permissions:
  id-token: write
